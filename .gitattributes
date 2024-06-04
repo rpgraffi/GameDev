@@ -2,4 +2,4 @@
 # Only put files into static over 50mb (recommended File size to use LSF)
 * text=auto
 
-Content/Static/** filter=lfs diff=lfs merge=lfs -text
+# Content/Static/** filter=lfs diff=lfs merge=lfs -text
