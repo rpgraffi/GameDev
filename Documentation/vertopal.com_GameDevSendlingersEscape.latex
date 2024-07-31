@@ -1,0 +1,1277 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+{Documentation Sendlinger Escape}
+
+{}
+
+{\protect\hyperlink{h.r6b76i99s4qg}{Team~~~~~~~~2}}
+
+{\protect\hyperlink{h.b9ku5v4qs7lg}{Final Presentation in written
+form~~~~~~~~2}}
+
+{\protect\hyperlink{h.gy43xugnnvnw}{Tools~~~~~~~~5}}
+
+{\protect\hyperlink{h.jztlzjoeqb7g}{Sendlinger Tor Map~~~~~~~~7}}
+
+{\protect\hyperlink{h.7fd3agl4xj3d}{References~~~~~~~~20}}
+
+{\protect\hyperlink{h.j2bnzuqap3fs}{Tasks~~~~~~~~24}}
+
+{\protect\hyperlink{h.8xhrau100mdu}{Individual Contribution~~~~~~~~25}}
+
+{\protect\hyperlink{h.6okh7evr8rjr}{Anton Rockenstein~~~~~~~~25}}
+
+{\protect\hyperlink{h.54pjuxqib0sr}{Raphael Wennmacher~~~~~~~~27}}
+
+{\protect\hyperlink{h.pxs12gn4zl2a}{Peter Trenkle~~~~~~~~29}}
+
+{}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{h.z7fvcs5kofc}{%
+\subsection{\texorpdfstring{{}}{}}\label{h.z7fvcs5kofc}}
+
+\hypertarget{h.r6b76i99s4qg}{%
+\subsection{\texorpdfstring{{Team}}{Team}}\label{h.r6b76i99s4qg}}
+
+{}
+
+\protect\hypertarget{t.eadf2e843d962816a13e60d2fd084ffc93af2688}{}{}\protect\hypertarget{t.0}{}{}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\hypertarget{h.b78ngczfl36k}{%
+\subsubsection{\texorpdfstring{{\protect\includegraphics{images/image18.png}}}{}}\label{h.b78ngczfl36k}}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\hypertarget{h.khzs44df2fu4}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image44.jpg}}}{}}\label{h.khzs44df2fu4}}
+\end{minipage} & {}
+
+{\includegraphics{images/image15.jpg}} \\
+{Anton Rockenstein} & {Raphael Wennmacher} & {Peter Trenkle} \\
+{Matrikelnummer: 12842818} & {Matrikelnummer: 12680165 } &
+{Matrikelnummer: 12843986 } \\
+\bottomrule()
+\end{longtable}
+
+{}
+
+{}
+
+\hypertarget{h.b9ku5v4qs7lg}{%
+\subsection{\texorpdfstring{{Final Presentation in written
+form}}{Final Presentation in written form}}\label{h.b9ku5v4qs7lg}}
+
+{\includegraphics{images/image22.png}}
+
+{\includegraphics{images/image46.png}}
+
+{A Brief Reminder of Our Game\textquotesingle s Origin and Its
+Connection to the Theme "Bavaria"}
+
+{\includegraphics{images/image33.png}}
+
+{}
+
+{The core concept of our game revolves around escaping the Sendlinger
+Tor subway station. At the beginning of the game, the player finds
+themselves trapped inside a train in the middle of the night.\\
+}{\includegraphics{images/image13.png}}
+
+{To escape the station, the player must solve a series of puzzles. The
+game\textquotesingle s objective is simple: successfully escape, and the
+game is complete.}
+
+{\includegraphics{images/image43.png}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{h.9dskno5ucfcw}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image3.png}}}{}}\label{h.9dskno5ucfcw}}
+
+\hypertarget{h.gy43xugnnvnw}{%
+\subsection{\texorpdfstring{{Tools}}{Tools}}\label{h.gy43xugnnvnw}}
+
+{Here are the tools and applications we used during the development
+process:}
+
+{}
+
+{}
+
+\protect\hypertarget{t.dd1228300674aeeb66f621a1fa0a8847166dda33}{}{}\protect\hypertarget{t.1}{}{}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule()
+\endhead
+{Blender 4.0 } &
+{\href{https://www.google.com/url?q=https://www.blender.org/\&sa=D\&source=editors\&ust=1722427236832148\&usg=AOvVaw3bDJXflVloCtWWok5bg0H5}{Blender}}
+
+{} & {Used to work on our 3D models and clean them up for integration
+into the game.} & {\includegraphics{images/image45.png}} \\
+{Figma} &
+{\href{https://www.google.com/url?q=https://www.figma.com/\&sa=D\&source=editors\&ust=1722427236833289\&usg=AOvVaw0hY56VkaGRqksU503U1lWG}{Figma}}
+
+{} & {Utilized for planning and presentations, including mood boards,
+storyboards, and brainstorming concepts.} &
+{\includegraphics{images/image10.png}} \\
+{Photoshop} &
+{\href{https://www.google.com/url?q=https://www.adobe.com/products/photoshop.html\&sa=D\&source=editors\&ust=1722427236834617\&usg=AOvVaw0DcKO7_N4pXW_WrSO2FGoV}{Official
+Adobe Photoshop - Photo \& Design Software \textbar{} Buy Now}}
+
+{} & {Applied to adjust textures for our assets, ensuring they look
+perfect in the game.}
+
+{} & {\includegraphics{images/image17.png}} \\
+{GitHub} &
+{\href{https://www.google.com/url?q=https://github.com/\&sa=D\&source=editors\&ust=1722427236835875\&usg=AOvVaw0phDY_c0I7lyNvEzWxw0Sp}{GitHub}}
+
+{} & {Employed for collaborative project development and version
+control.}
+
+{} & {\includegraphics{images/image23.png}} \\
+{Git Large File Storage} &
+{\href{https://www.google.com/url?q=https://git-lfs.com/\&sa=D\&source=editors\&ust=1722427236837283\&usg=AOvVaw14kVUORRQU2U1FDi1gmB44}{Git
+LFS}}
+
+{} & {Essential for handling the project\textquotesingle s large files.}
+
+{} & {\includegraphics{images/image48.png}} \\
+{Sketchfab} &
+{\href{https://www.google.com/url?q=https://sketchfab.com\&sa=D\&source=editors\&ust=1722427236838520\&usg=AOvVaw1VcYP2XMc9z77cGd8q-sof}{Sketchfab}}
+
+{}
+
+{} & {Source of some of our 3D assets.}
+
+{} & {\includegraphics{images/image37.png}} \\
+{Quixel} &
+{\href{https://www.google.com/url?q=https://quixel.com/\&sa=D\&source=editors\&ust=1722427236839651\&usg=AOvVaw2Gc2zEjh6U7l7w-8V9-o-R}{Quixel}}
+
+{} & {Another source of high-quality assets used in our game.} &
+{\includegraphics{images/image28.png}} \\
+{ElevenLabs } &
+{\href{https://www.google.com/url?q=https://elevenlabs.io/\&sa=D\&source=editors\&ust=1722427236840707\&usg=AOvVaw0kKVTP2c75JLG9_fKnhin3}{ElevenLabs}}
+
+{} & {Used to create voice lines for the game.}
+
+{} & {\includegraphics{images/image36.png}} \\
+{Unreal Engine} &
+{\href{https://www.google.com/url?q=https://www.unrealengine.com/de?sessionInvalidated\%3Dtrue\&sa=D\&source=editors\&ust=1722427236841963\&usg=AOvVaw2L3opV2mZ2QPwMcywZBiaE}{https://www.unrealengine.com/de?sessionInvalidated=true}}
+
+{} & {The primary engine used to develop the game.}
+
+{} & {\includegraphics{images/image31.png}} \\
+\bottomrule()
+\end{longtable}
+
+{}
+
+\hypertarget{h.jztlzjoeqb7g}{%
+\subsection[{Sendlinger Tor
+Map}]{\texorpdfstring{{\protect\includegraphics{images/image16.png}}{Sendlinger
+Tor Map}}{Sendlinger Tor Map}}\label{h.jztlzjoeqb7g}}
+
+{We received a CAD file of the Sendlinger Tor station from SSF
+Ingenieure
+(}{\href{https://www.google.com/url?q=https://www.ssf-ing.de/\&sa=D\&source=editors\&ust=1722427236843241\&usg=AOvVaw05oORtRZ3TyFL0tG4_t5BR}{SSF
+Ingenieure}}{) after obtaining permission from Stadtwerke München
+(}{\href{https://www.google.com/url?q=https://www.swm.de/\&sa=D\&source=editors\&ust=1722427236843328\&usg=AOvVaw3V2ei5dgunXanFdahLUPHB}{Stadtwerke
+München}}{). To use this CAD file, we signed a confidentiality agreement
+(Verschwiegenheitserklärung) ensuring that the game will not be made
+public and will be used solely for this university project. }
+
+{\includegraphics{images/image34.png}}
+
+{}
+
+{SSF Ingenieure AG \textbar{} Beratende Ingenieure im Bauwesen}
+
+{Domagkstraße 1a \textbar{} 80807 München}
+
+{T +49 89 / 3 60 40 - 452}
+
+{}
+
+{Our Contact Persons were:\\
+}
+
+{Sandra Ziegler}{\hfill\break
+}{SWM -- Wir fahren für die MVG}
+
+{Ressort Mobilität}
+
+{Verkehrsinfrastruktur}
+
+{Planung U-Bahn Neubau}
+
+{\href{mailto:Ziegler.Sandra@swm.de}{\nolinkurl{Ziegler.Sandra@swm.de}}}{\hfill\break
+}
+
+{Michael Tremmel}
+
+{SWM -- Wir fahren für die MVG -- Die Mobilitätsmacher*innen}
+
+{Ressort Mobilität}
+
+{Redaktion \& Kanäle}
+
+{\href{mailto:Tremmel.Michael@swm.de}{\nolinkurl{Tremmel.Michael@swm.de}}}
+
+{}
+
+{Michael Weizenegger}
+
+{Prokurist \textbar{} Infrastruktur \& Tunnel}
+
+{\href{mailto:mweizenegger@ssf-ing.de}{\nolinkurl{mweizenegger@ssf-ing.de}}}
+
+{}
+
+{Michael Schneider}
+
+{Infrastruktur \& Tunnel}
+
+{\href{mailto:mschneider@ssf-ing.de}{\nolinkurl{mschneider@ssf-ing.de}}}
+
+{}
+
+{}
+
+{The process of loading the CAD file into Blender and preparing it for
+our purposes was a significant undertaking. Here's how we managed it:}
+
+{Importing the CAD File}{: We began by importing the CAD file into
+Blender, which involved converting the file into a compatible format.
+This initial step was straightforward, but it was just the beginning.}
+
+{\includegraphics{images/image56.png}}
+
+{Cleaning Up the File:}{~The CAD file contained numerous elements and
+details that were unnecessary for our game model. We had to meticulously
+clean the file by removing extraneous elements, which was a
+labor-intensive task.}
+
+{Fixing Vertices and Normals:}{~One of the most challenging parts was
+fixing the vertices and normals. The CAD file had numerous vertices that
+needed adjustment to ensure the model\textquotesingle s integrity.
+Correcting these issues was time-consuming and required a lot of
+patience and precision.}
+
+{\includegraphics{images/image41.png}}
+
+{Optimizing the Model: }{After cleaning up the elements and fixing the
+vertices and normals, we optimized the model to ensure it would run
+smoothly in the game. This involved reducing the poly count and ensuring
+that the model was game-ready.}
+
+{Handling Collision and Lighting Issues:}{~After importing the file from
+Blender to Unreal, we encountered significant problems with collision
+and lighting. Initially, we attempted to import the model as USD and
+GLTF with textures, but this approach was unsuccessful. Consequently, we
+had to recalculate and remove all the textures in Blender. We assigned
+all vertices to groups with the same material so that we could add the
+textures in Unreal to the groups. To achieve this, we utilized a World
+Coordinate Addon.}
+
+{\includegraphics{images/image54.png}}
+
+{}
+
+{This step of cleaning the map and importing it to Unreal, ensuring that
+the collisions, lighting, textures, etc., worked properly, constituted
+about half of the total work on the project.}
+
+{Despite the challenges, including the painstaking work of fixing
+vertices and normals, cleaning the file from elements we
+didn\textquotesingle t use, and solving collision and lighting issues,
+the effort was worthwhile. The accurate representation of Sendlinger Tor
+adds an authentic Bavarian touch to our game, enhancing the player's
+experience.}
+
+{}
+
+{\includegraphics{images/image2.png}}
+
+{From Sketchfab, we purchased a model of a C2 Train from the Munich
+Subway (MVG). We then modified it to include an interior and a cabin
+that can be interacted with, animated doors, lighting, and enhanced
+textures.}
+
+{\includegraphics{images/image49.png}}{\hfill\break
+}
+
+\protect\hypertarget{t.9996508bc6ac86fd03f97caf9cdb37fa5b17d65c}{}{}\protect\hypertarget{t.2}{}{}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\endhead
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{1.0000} + 2\tabcolsep}@{}}{%
+{\includegraphics{images/image9.png}}
+
+{To enhance realism, we added characteristic assets to our level for
+fine-tuning. We also modified some textures to prominently display the
+MVG logo. Some assets were modelled by ourselves, and we also purchased
+some models from sketchfab or downloaded them via Quixel Bridge. }
+
+{}
+
+{}} \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{h.ce0iynysrbtv}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image50.png}}}{}}\label{h.ce0iynysrbtv}}
+
+\hypertarget{h.8tqe3pcnu057}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image1.png}}}{}}\label{h.8tqe3pcnu057}}
+
+\hypertarget{h.3jz8ok2qbfyv}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image25.png}}}{}}\label{h.3jz8ok2qbfyv}}
+
+\hypertarget{h.1o4tmmysputs}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image19.png}}}{}}\label{h.1o4tmmysputs}}
+
+\hypertarget{h.otymekzabya2}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image26.png}}}{}}\label{h.otymekzabya2}}
+
+\hypertarget{h.8akufiqt08xh}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image11.png}}}{}}\label{h.8akufiqt08xh}}
+
+\hypertarget{h.7c45vdhgexdn}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image14.png}}}{}}\label{h.7c45vdhgexdn}}
+
+\hypertarget{h.qve2i0gpyq9b}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image4.png}}}{}}\label{h.qve2i0gpyq9b}}
+
+\hypertarget{h.andm21bn9hs}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image39.png}}}{}}\label{h.andm21bn9hs}}
+
+\hypertarget{h.ewvlo3v0chca}{%
+\subsection{\texorpdfstring{{\protect\includegraphics{images/image20.png}}}{}}\label{h.ewvlo3v0chca}}
+
+{\includegraphics{images/image30.png}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{h.7fd3agl4xj3d}{%
+\subsection{\texorpdfstring{{References}}{References}}\label{h.7fd3agl4xj3d}}
+
+{}
+
+\protect\hypertarget{t.fbfeba9037cb2c565819346efedb635761b1d7a6}{}{}\protect\hypertarget{t.3}{}{}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\endhead
+{Munich Train Model} & \begin{minipage}[t]{\linewidth}\raggedright
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/subway-metro-train-munich-16a02993a4464120ab532fe625a8f20b\&sa=D\&source=editors\&ust=1722427236850347\&usg=AOvVaw1hlIV2plCZI5BqN2UBc_Fm}{subway
+metro train munich - Buy Royalty Free 3D model by falk lochmann (@falk)
+{[}16a0299{]}}}{\hfill\break
+}\strut
+\end{minipage} & {\includegraphics{images/image55.png}} \\
+{Train Seat} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/seat-9e015597ad30450991d6ee1008c0eb34\&sa=D\&source=editors\&ust=1722427236851194\&usg=AOvVaw1htPLqG7afCHydxkiYejy_}{https://sketchfab.com/3d-models/seat-9e015597ad30450991d6ee1008c0eb34}}
+
+{} & {\includegraphics{images/image51.png}} \\
+{Cockpit Tachometer} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/greddy-racing-meter-8d8abf0c5424472f83a8d58b0626a038\&sa=D\&source=editors\&ust=1722427236852053\&usg=AOvVaw0igxjWcB3oy5a3ZuDklKF8}{https://sketchfab.com/3d-models/greddy-racing-meter-8d8abf0c5424472f83a8d58b0626a038}}
+
+{} & {\includegraphics{images/image42.png}} \\
+{Ubahn SVG} &
+{\href{https://www.google.com/url?q=https://commons.wikimedia.org/wiki/File:U-Bahn.svg\&sa=D\&source=editors\&ust=1722427236852921\&usg=AOvVaw2EI0wkAqp9J4Hcw4s-MUOp}{File:U-Bahn.svg
+- Wikimedia Commons}} & {\includegraphics{images/image47.png}} \\
+{Absperrung MVG (Modified Textures) } &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/construction-site-fence-tarpaulin-blue-11570a29ffb646bfacbc33c478c48b09\&sa=D\&source=editors\&ust=1722427236853948\&usg=AOvVaw0iUOuZu66xkcW--S3IVtjp}{Construction
+Site Fence + Tarpaulin Blue - 3D model by Longjing (@longjing)
+{[}11570a2{]}}} & {\includegraphics{images/image7.png}} \\
+{Fire Exit Signs} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/fire-exit-signs-ded51fad45fb47ecb5ead2d9e01a11f2\&sa=D\&source=editors\&ust=1722427236854865\&usg=AOvVaw0PUQIs6_Yq5N15Skmy2c3Y}{Fire
+exit signs - Buy Royalty Free 3D model by Sousinho (@sousinho)
+{[}ded51fa{]}}} & {\includegraphics{images/image21.png}} \\
+{Wall mount first aid kit}
+
+{} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/wall-mount-first-aid-kit-e6177c57f52e4e76970d1349472a21eb\&sa=D\&source=editors\&ust=1722427236856022\&usg=AOvVaw3_j2LGVT0Y6HGNk4nxyVQZ}{Wall
+mount first aid kit - Download Free 3D model by AlexKurts (@AlexKurts)
+{[}e6177c5{]}}} & {\includegraphics{images/image52.png}} \\
+{Netzplan U-Bahn München} &
+{\href{https://www.google.com/url?q=https://de.m.wikipedia.org/wiki/Datei:Netzplan_U-Bahn_M\%25C3\%25BCnchen.svg\&sa=D\&source=editors\&ust=1722427236857962\&usg=AOvVaw1Vy6L8uf-hWwq38q8b1Aie}{Datei:Netzplan
+U-Bahn München.svg -- Wikipedia}}
+
+{} & {\includegraphics{images/image29.png}} \\
+{Trashbin} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/trash-bin-96c6c18cff6b4e1abcdf9f85cb8c690d\&sa=D\&source=editors\&ust=1722427236859325\&usg=AOvVaw2jEWOlE2KNi3ngkXTB3ic0}{Trash
+bin - Download Free 3D model by LerGer (@LerGer) {[}96c6c18{]}}} &
+{\includegraphics{images/image38.png}} \\
+{Electric Cable} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/electric-cable-13mb-1f6a4938769846b1ae9b512038aec5f8\&sa=D\&source=editors\&ust=1722427236860488\&usg=AOvVaw2yAWK6WQ706Hbc0H1u2fqF}{Electric
+cable - 13MB - Download Free 3D model by Mehdi Shahsavan (@ahmagh2e)
+{[}1f6a493{]}}} & {\includegraphics{images/image53.png}} \\
+{Lever} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/industrial-electricitys-lever-66915915e3234d319415d6bfb4e3a59e\&sa=D\&source=editors\&ust=1722427236861407\&usg=AOvVaw3H90vf7o7oU295iICY-gqB}{Industrial
+Electricity\textquotesingle s Lever - Download Free 3D model by
+Amine.Elouneg (@Amine.Elouneg) {[}6691591{]}}} &
+{\includegraphics{images/image24.png}} \\
+{Electricity Box 1} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/box-electricity-metallic-15mb-c367b5bb050c44659bfa0b05f37caa9d\&sa=D\&source=editors\&ust=1722427236862379\&usg=AOvVaw1WTV3Oize4Rf344Aawqj82}{box
+Electricity metallic - 15MB - Download Free 3D model by Mehdi Shahsavan
+(@ahmagh2e) {[}c367b5b{]}}}{~} &
+{\includegraphics{images/image8.png}} \\
+{Electricity Box 2} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/box-electricity-metallic-18mb-190bc7a453014609982d674c20d01f67\&sa=D\&source=editors\&ust=1722427236863495\&usg=AOvVaw2Xc4k7vgAxRGvKwJSW0P-g}{Box
+Electricity Metallic - 18MB - Download Free 3D model by Mehdi Shahsavan
+(@ahmagh2e) {[}190bc7a{]}}}
+
+{} & {\includegraphics{images/image12.png}} \\
+{Bucket 1} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/plastic-bucket-006d0f237b4141ac93960fa51d6f0634\&sa=D\&source=editors\&ust=1722427236864529\&usg=AOvVaw0C6-cc2_fHNp7BkbyFljln}{Plastic
+Bucket - Download Free 3D model by MaX3Dd (@MaX3Dd) {[}006d0f2{]}}} &
+{\includegraphics{images/image40.png}} \\
+{Bucket 2} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/freebie-game-art-plastic-bucket-d04d521bd0a049719f2199159e24d981\&sa=D\&source=editors\&ust=1722427236865367\&usg=AOvVaw1VWXKMvOrSwmJahrQUOG3f}{Freebie
+- Game Art: Plastic Bucket - Download Free 3D model by Alex Filip
+(@filip.alecsandru) {[}d04d521{]}}} &
+{\includegraphics{images/image35.png}} \\
+{Canister} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/6-plastic-canister-lowpoly-b87cd4d8f8b348e59daef66c6f0d3a1d\&sa=D\&source=editors\&ust=1722427236866192\&usg=AOvVaw0XhyZx6Mj4-NtFPqE7U7VE}{\#6
+Plastic Canister \textbar{} Канистра {[}Lowpoly{]} - Download Free 3D
+model by hoxsvl {[}b87cd4d{]} - Sketchfab}}
+
+{}
+
+{} & {\includegraphics{images/image5.png}} \\
+{Mop 1} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/mop-060a981e59ce41f495beb277270cc9be\&sa=D\&source=editors\&ust=1722427236867165\&usg=AOvVaw1F2oaA5IsmnHFdOpWC_yeQ}{Mop
+- Download Free 3D model by kaverinkirill1 {[}060a981{]} - Sketchfab}} &
+{\includegraphics{images/image6.png}} \\
+{Mop 2} &
+{\href{https://www.google.com/url?q=https://sketchfab.com/3d-models/mop-420bddb8730c4e3aa7653e5f7c5a5a7c\&sa=D\&source=editors\&ust=1722427236867950\&usg=AOvVaw1z5WGsK-j9-y0dGZXZd3_h}{Mop
+- Download Free 3D model by ZachWilkins1997 (@ZachWilkins1997)
+{[}420bddb{]}}}
+
+{} & {\includegraphics{images/image32.png}} \\
+{World Aligned Texture Coordinate Material (EasyMapper)} &
+{\href{https://www.google.com/url?q=https://www.unrealengine.com/marketplace/en-US/product/easymapper\&sa=D\&source=editors\&ust=1722427236868911\&usg=AOvVaw2ZjKwtKB_4OLPi70NJyXya}{EasyMapper
+in Materials - UE Marketplace}}
+
+{} & {\includegraphics{images/image27.png}} \\
+\bottomrule()
+\end{longtable}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{h.ram3urb2evf4}{%
+\subsection{\texorpdfstring{{}}{}}\label{h.ram3urb2evf4}}
+
+\hypertarget{h.j2bnzuqap3fs}{%
+\subsection{\texorpdfstring{{Tasks}}{Tasks}}\label{h.j2bnzuqap3fs}}
+
+{A}{~for Anton Rockenstein}
+
+{P}{~for Peter Trenkle}
+
+{R}{~for Raphael Wennmacher}
+
+{}
+
+\protect\hypertarget{t.5da54007e74e75a97fdf8f794521723743a75ba6}{}{}\protect\hypertarget{t.4}{}{}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+\endhead
+{Task } & {Assigned to} \\
+{First Person Camera and Player Mechanics/User Input } & {A, R} \\
+{Mobile Phone UI } & {A, R} \\
+{Having Contact to SMW and SSF Ingenieure} & {A} \\
+{Torchlight } & {R} \\
+{Audio Feedback } & {R} \\
+{Light Actors } & {R} \\
+{Keypad} & {R} \\
+{Modifying the train/add interior} & {A, P} \\
+{Train Cockpit} & {P} \\
+{Escalator} & {P, R } \\
+{Visual Feedback } & {A, P, R} \\
+{Storyline } & {A, P, R} \\
+{Riddle 1 Train} & {P} \\
+{Riddle 2 Keypad} & {R} \\
+{Riddle 3 Phonenumber} & {A} \\
+{Map cleaning/Modifying~~~~~~~~} & {P} \\
+{Map Grouping} & {A} \\
+{Texturing~~~~~~~~ ~} & {A, P, R} \\
+{Adding Assets and Decals~~~~~~~~} & {A, P, R} \\
+{Voice scripting and generation} & {R} \\
+{Game UI \& Menu} & {R} \\
+{Documentation and Video} & {A, P, R} \\
+{Presentation Slides and Presentation} & {A, P, R} \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{h.8xhrau100mdu}{%
+\subsection{\texorpdfstring{{Individual
+Contribution}}{Individual Contribution}}\label{h.8xhrau100mdu}}
+
+\hypertarget{h.6okh7evr8rjr}{%
+\subsubsection{\texorpdfstring{{Anton
+Rockenstein}}{Anton Rockenstein}}\label{h.6okh7evr8rjr}}
+
+{}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Initial Development Phase:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Motion Matching on MetaHuman Character:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Spent significant time working with a plugin for motion matching on a
+  MetaHuman character.}
+\item
+  {Setup showed promise but lacked sufficient animations at that stage
+  of development.}
+\item
+  {Resulted in dissatisfaction with character movement.}
+\item
+  {Decided to switch to a first-person camera, better aligning with our
+  game idea.}
+\item
+  {Implemented first-person camera mechanics in the game.}
+\item
+  {With the new 500+ animations from Epic Games, the game could easily
+  switch to a third-person perspective with quality motion-matching
+  animations.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  {Map Acquisition and Preparation:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Contact with SSF Ingenieure and Stadtwerke München:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Established connections to obtain the Sendlinger Tor map.}
+\item
+  {Required multiple calls and over 20 emails to achieve success.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  {Map Cleaning and Processing:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Cleaned and worked on the map using Blender.}
+\item
+  {Frequently transferred the map in various stages to Unreal Engine to
+  optimize the process of importing maps from Blender to Unreal Engine
+  by addressing common issues such as collision detection, lighting
+  adjustments, and normal orientation.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  {Train Model Development:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Modeling and Texturing:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Worked on the train model, cleaning and optimizing.}
+\item
+  {Animated the train doors.}
+\item
+  {Applied textures that were missing from the download.}
+\item
+  {Added TrainTrails to the model}
+\item
+  {Applied curved Modifier to the Trails and the Train to match them to
+  the form of the station}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  {Component Integration Phase:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Collaboration:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Began integrating all project components, requiring close teamwork,
+  handling frequently occurring errors.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  {Riddle Development:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Each team member focused on their assigned riddle to ensure seamless
+  integration.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  {Third Riddle Implementation:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Designed and added a numpad to the mobile phone UI for the third
+  riddle.}
+\item
+  {Implemented game logic to ensure it activates only after completing
+  the second riddle.}
+\item
+  {Designed a graffiti decal with a phone number to solve the riddle.}
+\item
+  {Placed the graffiti at a specific spot in the level.}
+\item
+  {Created and integrated voice lines to guide players through the level
+  and storyline.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  {Finalization and Polishing Phase:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Final Adjustments:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Assisted in finalizing and fine-tuning the game.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  {Bug Fixing and Asset Modification:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Fixed bugs and modified assets as needed.}
+\item
+  {Added new assets and placed lighting for better visual effects.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  {Polishing Tasks:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Engaged in various polishing tasks to ensure the game is smooth and
+  engaging.}
+\end{enumerate}
+
+{References: }
+
+{}
+
+{Motion Matching:\\
+}{\href{https://www.google.com/url?q=https://dev.epicgames.com/documentation/en-us/unreal-engine/motion-matching-in-unreal-engine\&sa=D\&source=editors\&ust=1722427236883681\&usg=AOvVaw3kCBD9_3hjiVvNtW00Ohfe}{https://dev.epicgames.com/documentation/en-us/unreal-engine/motion-matching-in-unreal-engine}}{\hfill\break
+}
+
+{500+ Animations:\\
+}{\href{https://www.google.com/url?q=https://www.unrealengine.com/en-US/blog/game-animation-sample\&sa=D\&source=editors\&ust=1722427236883957\&usg=AOvVaw0qmpfnhCNgBrcUJpDOgo_5}{https://www.unrealengine.com/en-US/blog/game-animation-sample}}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{h.h1ru5zx1fb7s}{%
+\subsubsection{\texorpdfstring{{}}{}}\label{h.h1ru5zx1fb7s}}
+
+\hypertarget{h.54pjuxqib0sr}{%
+\subsubsection{\texorpdfstring{{Raphael
+Wennmacher}}{Raphael Wennmacher}}\label{h.54pjuxqib0sr}}
+
+{}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Project Setup and Version Control:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Set up Unreal Project with GitHub and Large File Storage (LFS).}
+\item
+  {Clean and merge Blender files.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  {Character and Movement:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Implement procedural animation for walking human character (not
+  in-game).}
+\item
+  {Develop character movements:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Keyboard input for basic movement.}
+\item
+  {Dynamic camera shakes.}
+\item
+  {Run and jump functionality.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  {Create toggleable flashlight with custom light emitter.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  {Interaction Systems:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Design interfaces between interactive objects for control.}
+\item
+  {Implement raycast-based interactions for all interactive elements
+  in-game.}
+\item
+  {Develop interactive door blueprint with animation (Subway and Locked
+  Room).}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  {User Interface (UI):}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Create reusable UI components (buttons, menus, layouts).}
+\item
+  {Design UI assets in Figma.}
+\item
+  {Implement menu UI manager with 4 layers, including push and pop
+  functionalities.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  {Custom Assets and Blueprints:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Model keypad and add input logic blueprint.}
+\item
+  {Create procedural escalator blueprint based on spline for
+  controllability and adjustability.}
+\item
+  {Interactive Lever with sound and animation}
+\item
+  {Develop custom MVG subway information clock model \& blueprint with
+  screen-simulating material.}
+\item
+  {Design custom MVG information board.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  {Materials and Textures:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Implement world-aligned texture coordinates material.}
+\item
+  {Merge and customize multiple Quixel and world-aligned materials to
+  fit Sendlinger Tor aesthetic:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Floor, Glossy Floor, Rocks, Scratched Painted Materials, Metal,
+  Grunge Texture, Used Plastic (multiple colors).}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  {Lighting and Visual Effects:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Create light control actor to manage groups of light blueprints.}
+\item
+  {Generate ambient light map.}
+\item
+  {Adjust post-processing volume:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Chromatic aberration.}
+\item
+  {Culling distances.}
+\item
+  {Depth of field.}
+\item
+  {Distance fade out.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  {Audio and Voice Acting:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Implement voice actor functionality with repeatable or skippable
+  voice lines.}
+\item
+  {Script and generate voice acting using ElevenLabs.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{8}
+\tightlist
+\item
+  {Level Design and Asset Placement:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Place assets: voice actors, light actors, stilts, clocks, information
+  boards, escalators, decals, and barriers.}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{9}
+\tightlist
+\item
+  {Performance Optimization:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Address performance issues:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Optimize light complexity.}
+\item
+  {Adjust culling distances.}
+\item
+  {Improve shadow quality.}
+\end{enumerate}
+
+{}
+
+{References:}
+
+{}
+
+{Procedural Character Animation Course }
+
+{\href{https://www.google.com/url?q=https://www.udemy.com/course/procedural-animation/?couponCode\%3DACCAGE0923\&sa=D\&source=editors\&ust=1722427236889081\&usg=AOvVaw1MZ0Unultu33_yFLaKFmVi}{https://www.udemy.com/course/procedural-animation/?couponCode=ACCAGE0923}}{~}
+
+{}
+
+{Interactive Keypad Tutorial}
+
+{\href{https://www.google.com/url?q=https://www.youtube.com/watch?v\%3DUAlMBsN7BG8\&sa=D\&source=editors\&ust=1722427236889431\&usg=AOvVaw3e5jydtFGplYJw6Xb2qiqs}{https://www.youtube.com/watch?v=UAlMBsN7BG8}}{~}
+
+{}
+
+{EasyMapper: World Aligned Texture Materials}
+
+{\href{https://www.google.com/url?q=https://www.youtube.com/watch?v\%3DUWrCA-t0v3U\%26t\%3D200s\&sa=D\&source=editors\&ust=1722427236889678\&usg=AOvVaw0Az5x6Nj_MKtqRL8_4opfw}{https://www.youtube.com/watch?v=UWrCA-t0v3U\&t=200s}}{~
+}
+
+{}
+
+{Modular and Scalable UI Systems - Unreal Best Practices}
+
+{\href{https://www.google.com/url?q=https://www.youtube.com/watch?v\%3Dv9k-J2GeEKI\%26t\%3D17s\&sa=D\&source=editors\&ust=1722427236889939\&usg=AOvVaw3oB3hM1L8poozkPJETWalH}{https://www.youtube.com/watch?v=v9k-J2GeEKI\&t=17s}}{~}
+
+{}
+
+{Crosshair Interaction}
+
+{\href{https://www.google.com/url?q=https://www.youtube.com/watch?v\%3DwU-K7WEWA60\&sa=D\&source=editors\&ust=1722427236890198\&usg=AOvVaw3UpBQoj3I2lOYC-wIUCIEl}{https://www.youtube.com/watch?v=wU-K7WEWA60}}{~}
+
+{}
+
+{}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{h.2jb3zyg2g0xv}{%
+\subsubsection{\texorpdfstring{{}}{}}\label{h.2jb3zyg2g0xv}}
+
+\hypertarget{h.pxs12gn4zl2a}{%
+\subsubsection{\texorpdfstring{{Peter
+Trenkle}}{Peter Trenkle}}\label{h.pxs12gn4zl2a}}
+
+{}
+
+{Blender:}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Map:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Reduced map object count from approximately 3000 to 1000}
+\item
+  {Cleaned environmental issues for every visible walls, floors, and
+  ceilings such as:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {holes }
+\item
+  {misalignments}
+\item
+  {missing vertices, edges, faces}
+\item
+  {incorrect normals}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  {Modeled:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {stairs}
+\item
+  {stair railings}
+\item
+  {escalators}
+\item
+  {electricity room with assets}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  {Train Cockpit:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Modeled t}{rain cockpit, including:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Doors}
+\item
+  {Cockpit table}
+\item
+  {Displays}
+\item
+  {Switches}
+\item
+  {Door open button}
+\item
+  {Riddle text sheet}
+\item
+  {Added additional assets such as tachos and seat}
+\end{enumerate}
+
+{Unreal Engine:}
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  {Level 1:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {D}{evelopment of Level 1, focusing on the train cockpit, including:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Cockpit Blueprint (Parent):}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Animated cockpit door interaction}
+\item
+  {Camera switch}
+\item
+  {Clickable switches for riddle}
+\item
+  {Clickable door open button}
+\item
+  {Logic for riddle to open the train doors}
+\item
+  {Auditive Feedback}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  {CockpitSwitch Blueprint (Child)}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Visual and auditive Feedback}
+\end{enumerate}
+
+\begin{enumerate}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  {Map:}
+\end{enumerate}
+
+\begin{enumerate}
+\tightlist
+\item
+  {Implemented invisible barriers to streamline player movement and
+  interaction.}
+\item
+  {Added the electricity room and door}
+\item
+  {InformationSystem Blueprint with BoxColliders to give UI Information}
+\item
+  {Integrated various assets to enrich the overall gameplay experience}
+\item
+  {Added UI information for Level 1 and Level 2}
+\end{enumerate}
+
+{}
+
+{}
+
+\end{document}
